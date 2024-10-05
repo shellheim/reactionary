@@ -29,6 +29,7 @@ const SkeletonCard = () => {
 	}, []);
 	return (
 		<ContentLoader
+			className="max-w-full scale-125 min-372:scale-100"
 			speed={1}
 			width={335}
 			height={335}
