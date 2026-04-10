@@ -11,10 +11,19 @@ function NavBar() {
           </span>
           <ThemeToggle />
         </a>
-        <ul className="flex text-base text-slate-600 dark:text-slate-100 gap-4 md:text-lg">
-          <li>
-            <a href="https://github.com/shellheim/reactionary">Source</a>
-          </li>
+        <ul className="flex justify-center items-center text-base text-slate-600 dark:text-slate-100 gap-4 md:text-lg">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/shellheim/reactionary"
+          >
+            Source
+          </a>
+          <img
+            class="w-10"
+            src="./link-external.svg"
+            alt="External Link Icon"
+          />
         </ul>
       </nav>
     </header>
