@@ -20,7 +20,7 @@ function NavBar() {
             Source
           </a>
           <img
-            class="w-10"
+            className="w-10"
             src="./link-external.svg"
             alt="External Link Icon"
           />
